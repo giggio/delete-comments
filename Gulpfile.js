@@ -24,7 +24,7 @@ gulp.task("trans", ['transpile']);
 gulp.task("retrans", gulpSequence(['clean', 'transpile']));
 gulp.task("re", ['retrans']);
 
-gulp.task("transpile:production", ["clean"], () => transpile({ target: 'ES2015' }));
+gulp.task("transpile:production", ["clean"], () => transpile({ target: 'ES2017' }));
 
 gulp.task("autotest", () => {
     gulp.watch(["lib/**/*.ts", "test/**/*.ts"], ['test']);
