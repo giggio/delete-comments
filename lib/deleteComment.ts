@@ -2,7 +2,6 @@ import { config } from './config';
 import { FB } from 'fb';
 // import { FB, FacebookApiException } from 'fb';
 import { promisify } from 'bluebird';
-global.log = require('debug')('delete-comments');
 FB.options({
     appId: config.facebook.appId,
     appSecret: config.facebook.appSecret,
