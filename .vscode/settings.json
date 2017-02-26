@@ -1,0 +1,15 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "dist": true,
+        ".gulp-cache": true,
+        "LICENSE": true,
+        "*.log": true
+    },
+    "search.exclude": {
+        "**/node_modules": true
+    },
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    "vsicons.presets.angular": false
+}
